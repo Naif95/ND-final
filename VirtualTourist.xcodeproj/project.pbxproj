@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF61106923B675C20011843D /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61106823B675C20011843D /* Weather.swift */; };
+		AF61106B23B6790D0011843D /* OpenweathermapResponse .swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61106A23B6790D0011843D /* OpenweathermapResponse .swift */; };
+		AF61106D23B67BA10011843D /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61106C23B67BA10011843D /* WeatherViewController.swift */; };
+		AF67796A239D816000A75140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF677969239D816000A75140 /* AppDelegate.swift */; };
+		AF67796C239D816000A75140 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67796B239D816000A75140 /* SceneDelegate.swift */; };
+		AF67796E239D816000A75140 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67796D239D816000A75140 /* TravelViewController.swift */; };
+		AF677971239D816000A75140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF67796F239D816000A75140 /* Main.storyboard */; };
+		AF677974239D816000A75140 /* VirtualTourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF677972239D816000A75140 /* VirtualTourist.xcdatamodeld */; };
+		AF677976239D816300A75140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF677975239D816300A75140 /* Assets.xcassets */; };
+		AF677979239D816300A75140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF677977239D816300A75140 /* LaunchScreen.storyboard */; };
+		AF8FCB1223B3652A00D56C59 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FCB1123B3652A00D56C59 /* Constants.swift */; };
+		AF8FCB1423B366AE00D56C59 /* FlickrCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FCB1323B366AE00D56C59 /* FlickrCall.swift */; };
+		AF8FCB1623B3676600D56C59 /* CollectionViewExtenion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FCB1523B3676600D56C59 /* CollectionViewExtenion.swift */; };
+		AF8FCB1823B3678100D56C59 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FCB1723B3678100D56C59 /* PhotoAlbumViewController.swift */; };
+		AF96D91623B00578002939B1 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF96D91523B00578002939B1 /* PhotosViewController.swift */; };
+		AF96D92123B01744002939B1 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF96D92023B01744002939B1 /* HelperFunctions.swift */; };
+		AFA9240723AA99DD00429E2F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9240623AA99DD00429E2F /* DataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF61106823B675C20011843D /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		AF61106A23B6790D0011843D /* OpenweathermapResponse .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OpenweathermapResponse .swift"; sourceTree = "<group>"; };
+		AF61106C23B67BA10011843D /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		AF677966239D816000A75140 /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF677969239D816000A75140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF67796B239D816000A75140 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF67796D239D816000A75140 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		AF677970239D816000A75140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF677973239D816000A75140 /* VirtualTourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTourist.xcdatamodel; sourceTree = "<group>"; };
+		AF677975239D816300A75140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF677978239D816300A75140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF67797A239D816300A75140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8FCB1123B3652A00D56C59 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF8FCB1323B366AE00D56C59 /* FlickrCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrCall.swift; sourceTree = "<group>"; };
+		AF8FCB1523B3676600D56C59 /* CollectionViewExtenion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtenion.swift; sourceTree = "<group>"; };
+		AF8FCB1723B3678100D56C59 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		AF96D91523B00578002939B1 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		AF96D92023B01744002939B1 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		AFA9240623AA99DD00429E2F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF677963239D816000A75140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF67795D239D816000A75140 = {
+			isa = PBXGroup;
+			children = (
+				AF677968239D816000A75140 /* VirtualTourist */,
+				AF677967239D816000A75140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF677967239D816000A75140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF677966239D816000A75140 /* VirtualTourist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF677968239D816000A75140 /* VirtualTourist */ = {
+			isa = PBXGroup;
+			children = (
+				AF96D91B23B0098B002939B1 /* Networking */,
+				AFA9240523AA994700429E2F /* coredata */,
+				AFA9240223AA98EE00429E2F /* model */,
+				AFA9240123AA98AF00429E2F /* view */,
+				AFA9240023AA989B00429E2F /* controller */,
+				AF67797A239D816300A75140 /* Info.plist */,
+			);
+			path = VirtualTourist;
+			sourceTree = "<group>";
+		};
+		AF96D91B23B0098B002939B1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FCB1123B3652A00D56C59 /* Constants.swift */,
+				AF8FCB1323B366AE00D56C59 /* FlickrCall.swift */,
+				AF61106823B675C20011843D /* Weather.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AFA9240023AA989B00429E2F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF677969239D816000A75140 /* AppDelegate.swift */,
+				AF67796B239D816000A75140 /* SceneDelegate.swift */,
+				AF67796D239D816000A75140 /* TravelViewController.swift */,
+				AF96D91523B00578002939B1 /* PhotosViewController.swift */,
+				AF96D92023B01744002939B1 /* HelperFunctions.swift */,
+				AF8FCB1523B3676600D56C59 /* CollectionViewExtenion.swift */,
+				AF8FCB1723B3678100D56C59 /* PhotoAlbumViewController.swift */,
+				AF61106C23B67BA10011843D /* WeatherViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AFA9240123AA98AF00429E2F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AF67796F239D816000A75140 /* Main.storyboard */,
+				AF677977239D816300A75140 /* LaunchScreen.storyboard */,
+				AF677975239D816300A75140 /* Assets.xcassets */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AFA9240223AA98EE00429E2F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AF61106A23B6790D0011843D /* OpenweathermapResponse .swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AFA9240523AA994700429E2F /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				AF677972239D816000A75140 /* VirtualTourist.xcdatamodeld */,
+				AFA9240623AA99DD00429E2F /* DataController.swift */,
+			);
+			path = coredata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF677965239D816000A75140 /* VirtualTourist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF67797D239D816300A75140 /* Build configuration list for PBXNativeTarget "VirtualTourist" */;
+			buildPhases = (
+				AF677962239D816000A75140 /* Sources */,
+				AF677963239D816000A75140 /* Frameworks */,
+				AF677964239D816000A75140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualTourist;
+			productName = VirtualTourist;
+			productReference = AF677966239D816000A75140 /* VirtualTourist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF67795E239D816000A75140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = udacity;
+				TargetAttributes = {
+					AF677965239D816000A75140 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AF677961239D816000A75140 /* Build configuration list for PBXProject "VirtualTourist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF67795D239D816000A75140;
+			productRefGroup = AF677967239D816000A75140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF677965239D816000A75140 /* VirtualTourist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF677964239D816000A75140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF677979239D816300A75140 /* LaunchScreen.storyboard in Resources */,
+				AF677976239D816300A75140 /* Assets.xcassets in Resources */,
+				AF677971239D816000A75140 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF677962239D816000A75140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8FCB1823B3678100D56C59 /* PhotoAlbumViewController.swift in Sources */,
+				AF61106B23B6790D0011843D /* OpenweathermapResponse .swift in Sources */,
+				AFA9240723AA99DD00429E2F /* DataController.swift in Sources */,
+				AF677974239D816000A75140 /* VirtualTourist.xcdatamodeld in Sources */,
+				AF67796E239D816000A75140 /* TravelViewController.swift in Sources */,
+				AF61106923B675C20011843D /* Weather.swift in Sources */,
+				AF96D91623B00578002939B1 /* PhotosViewController.swift in Sources */,
+				AF67796A239D816000A75140 /* AppDelegate.swift in Sources */,
+				AF67796C239D816000A75140 /* SceneDelegate.swift in Sources */,
+				AF96D92123B01744002939B1 /* HelperFunctions.swift in Sources */,
+				AF8FCB1223B3652A00D56C59 /* Constants.swift in Sources */,
+				AF61106D23B67BA10011843D /* WeatherViewController.swift in Sources */,
+				AF8FCB1623B3676600D56C59 /* CollectionViewExtenion.swift in Sources */,
+				AF8FCB1423B366AE00D56C59 /* FlickrCall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF67796F239D816000A75140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF677970239D816000A75140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF677977239D816300A75140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF677978239D816300A75140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF67797B239D816300A75140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF67797C239D816300A75140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF67797E239D816300A75140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualTourist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.naif.VirtualTourist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF67797F239D816300A75140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualTourist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.naif.VirtualTourist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF677961239D816000A75140 /* Build configuration list for PBXProject "VirtualTourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF67797B239D816300A75140 /* Debug */,
+				AF67797C239D816300A75140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF67797D239D816300A75140 /* Build configuration list for PBXNativeTarget "VirtualTourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF67797E239D816300A75140 /* Debug */,
+				AF67797F239D816300A75140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF677972239D816000A75140 /* VirtualTourist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF677973239D816000A75140 /* VirtualTourist.xcdatamodel */,
+			);
+			currentVersion = AF677973239D816000A75140 /* VirtualTourist.xcdatamodel */;
+			path = VirtualTourist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF67795E239D816000A75140 /* Project object */;
+}
